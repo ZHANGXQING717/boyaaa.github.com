@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0 auto;
+		padding: 0;
+	}
+	     /*头部样式区域*/
+		.header{
+			width: 1366px;
+			height: 56px;
+			background-color: #191D3A; 
+			position: relative;
+			left: 0;
+			top: 0;
+
+
+		}
+		/*头部logo样式区域*/
+		.header .logo{
+             width: 174px;
+             height: 56px;
+             background:url(images/logo.png) no-repeat  0px 0px; 
+             position: absolute;
+             left: 136px;
+             margin-right: 50px;
+
+
+     	}
+     	.header ul{
+     		list-style: none;
+     		position: absolute;
+     		left: 350px;
+
+     	}
+		 .header ul li{
+
+		 	float: left;
+		 	margin-right: 10px;
+		 	height: 56px;
+		 	
+
+		 }
+
+		 .header ul li a{
+		 	display: block;
+		 	color: #e5e5e5;
+		 	line-height: 56px;
+		 	height: 56px;
+		 	text-decoration: none;
+		 	margin-right: 50px;
+		 	font-size: 12px;
+
+		 }
+		 .header ul li a:hover{
+		 	color: orange;
+		 }
+		 /*按钮样式区域*/
+		 .header .button{
+		 	width: 100px;
+		 	height: 36px;
+		 	background-color: green;
+		 	border:none;
+		 	color: #e5e5e5;
+		 	position: absolute;
+		 	right:200px;
+		 	margin-top: 10px;	
+		 }
+		 button:hover{
+	       cursor: pointer;
+         }
+
+		
+       /*标语样式部分*/
+		.banner{
+			 width: 1366px;
+             height: 464px;
+             background-image: url(images/banner.jpg);
+             background-position: -300px 0;
+		}
+		/*广告样式部分*/
+		.adv{
+            width: 1366px;
+            margin-top: 50px;
+
+		}
+		/*第一个广告*/
+		.adv ul{
+			
+			width: 1366px;
+			height: 150px;
+		}
+
+		.adv ul li{
+			width: 220px;
+            height: 130px;
+            float: left;
+            margin-left:100px;
+            list-style: none;
+           
+		}
+		.adv ul li img{
+		 	width: 220px;
+		 	height: 130px;
+		 }
+		.adv ul li .word1{
+			width: 218px;
+			height: 34px;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.adv ul li .btn1{
+			color: green;
+			width: 100px;
+			height: 40px;
+			margin-top: 0;
+			margin-left: 60px;
+			border:none;
+			background-color: transparent;
+		}
+		.adv ul li .word2{
+			width: 218px;
+			height: 34px;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.adv ul li .word3{
+			width: 218px;
+			height: 34px;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.adv ul li .word4{
+			width: 218px;
+			height: 34px;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.news{
+			width: 1000px;
+			height: 300px;
+			background-color: pink;
+			margin-top: 100px;
+
+		}
+		.news .box1{
+			width: 500px;
+			height: 300px;
+		
+			background-image: url(images/bynewsbg.jpg);
+			float: left;
+		}
+		.news .box1 .notice{
+			padding-top: 80px;
+		}
+		.notice  li{
+			list-style: none;
+		}
+		.news .box1 .more1{
+            width: 66px;
+            height: 28px;
+            background-image: url(images/more.png);
+            background-repeat: no-repeat;
+            position: relative;
+            top: 50px;
+            background-position: -1px 0;
+			
+		}
+		.news .box1 .notice .li1{
+			border-top: solid  #DBE1E7;
+			color: #444895;
+			line-height: 40px;
+		}
+		
+		
+		.news .box1 .notice .li2{
+			border-top: solid #DBE1E7;
+			border-bottom: solid #DBE1E7;
+			color: #444895;
+			line-height: 40px;
+		}
+
+		.news .box2{
+			width: 500px;
+			height: 300px;
+			
+			background-image: url(images/byhrbg3.jpg);
+			background-repeat: no-repeat;
+			float: right;
+		}
+		.news .box2 .zhaoping{
+			width: 130px;
+			height: 50px;
+			background-image: url(images/zczp.png);
+			 background-repeat: no-repeat;
+			position: relative;
+			top: 10px;
+			left:-100px;
+          
+		}
+		.news .box2 .more2{
+			width: 66px;
+			height: 28px;
+			background-image: url(images/more2.png);
+            background-repeat: no-repeat;
+            position: relative;
+            top: 35px;
+            left: 15px;
+		}
+		.news .box2 .zhaoping li{
+			width: 300px;
+			height: 35px;
+			line-height: 35px;
+			font-size: 14px;
+			border-bottom:1px solid  #6FDEA3;
+			position: relative;
+			top: 60px;
+			left: -50px;
+            list-style: none;
+			color:#F2EFB3;
+		}
+		.bottom {
+			width: 1366px;
+			height: 60px;
+			
+			background-color: #191D3A;
+			margin-top: 56px;
+			
+		} 
+		.bottom .h1{
+			height: 60px;
+			line-height: 60px;
+			margin-left: 20px;
+			float: left;
+		}
+		.bottom .h2{
+			height: 60px;
+			line-height: 60px;
+			margin-left: 150px;
+			float: left;
+		}
+		.bottom .logo1 img{
+			width: 50px;
+			height: 60px;
+			float: left;
+			margin-left: 20px;
+		}
+	</style>
+	
+</head>
+<body>
+    <!-- 头部样式部分 -->
+    <div class="header">
+    	<div class="logo"></div>
+    	
+        <ul>
+        	<li><a href="#">首页</a></li>
+        	<li><a href="#">博雅游戏</a></li>
+        	<li><a href="#">博雅新闻</a></li>
+        	<li><a href="#">关于我们</a></li>
+        	<li><a href="#">客服中心</a></li>
+        	<li><a href="#">投资者关系</a></li>
+        
+        </ul>
+        <button class="button">加入我们</button>
+    </div>
+    <!-- 标语样式部分 -->
+	<div class="banner"></div>
+	
+	<!--广告样式部分 -->
+	<div class="adv">
+		<ul>
+			<li>
+				<img src="images/bpt.jpg" alt="" />
+				<div class="word1">BPT宣传片</div>
+			    <button class="btn1">点击播放</button>
+			</li>
+			<li>
+			    <img src="images/video.jpg" alt="" />
+		        <div class="word2">博雅互动宣传视频</div>
+		        <button class="btn1">点击播放</button>
+			</li>
+			<li>
+				<img src="images/gamepic3.jpg"/>
+		        <div class="word3">斗地主</div>
+		        <button class="btn1">点击播放</button>
+			</li>
+			<li>
+				<img src="images/gamepic1.jpg" alt="" />
+		        <div class="word4">德州扑克</div>
+		        <button class="btn1">点击播放</button>
+			</li>
+		</ul>
+	</div> 
+	<!-- 新闻样式部分 -->
+	<div class="news">
+	<!-- 左边部分 -->
+		<div class="box1">
+			<div class="more1">
+			</div>
+			<div class="notice">
+				
+					<div class="li1"><li>09/28&nbsp;&nbsp;2015博雅国际扑克大赛(BPT)在澳门落幕</li>
+					<li>08/26&nbsp;&nbsp;2015BPT博雅国际扑克大赛重磅来袭</li>
+					<li>08/01&nbsp;&nbsp;博雅互动与阿里游戏联手启动“淘宝杯首届电视棋牌大赛”</li></div>
+					<div class="li2"><li>07/21&nbsp;&nbsp;湖南省省长杜家毫一行参观博雅互动</li></div>
+			</div>
+			
+		</div>
+<!-- 右边部分 -->
+		<div class="box2">
+		     <div class="more2"></div>
+			 <div class="zhaoping">
+			 	<div><li>专场招聘岗位:</li></div>
+			 	<div><li>PHP开发工程师</li></div>
+			 	<div><li>C++开发工程师</li></div>
+			 	<div><li>WEB前端开发工程师</li></div>
+			 	<div><li>大数据开发工程师</li></div>
+			 </div>
+		</div>
+	</div>
+	<!-- 底部样式部分 -->
+	<div class="bottom">
+		<div class="h1">网站地图|免费责明</div>
+		<div class="h2">Copyright@2004-2014博雅互动（Boyaa Interactive）粤ICP备05062536号 增值电信业务经营许可证：粤B2-20110513</div>
+      <div class="logo1">
+      	<img src="images/govIcon.gif"/>
+      </div>
+	</div>
+</body>
+</html>
